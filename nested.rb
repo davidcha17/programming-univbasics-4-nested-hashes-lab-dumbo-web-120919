@@ -20,7 +20,7 @@ return programmer_hash[:grace_hopper]
 end
 
 def alan_kay_is_known_for
-	return programmer_hash[:alan_kay][0]
+	return programmer_hash[:alan_kay]
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
 
 	programmer_hash =
@@ -64,7 +64,7 @@ def adding_matz
 #   :known_for => "Ruby",
 #    :languages => ["LISP", "C"]
 # }
-programmer_hash = [:yukihiro_matsumoto] = [:known_for] => "Ruby"
+
 
 	programmer_hash =
  		{
